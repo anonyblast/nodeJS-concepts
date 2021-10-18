@@ -1,9 +1,14 @@
+/**
+ * Challenge 01 - NodeJS Concepts
+ * 
+ * author : anonyblast [Gustavo Iafelix]
+ */
+
 const express = require('express');
 const cors = require('cors');
-
+const app = express();
 const { v4: uuidv4 } = require('uuid');
 
-const app = express();
 
 app.use(cors());
 app.use(express.json());
